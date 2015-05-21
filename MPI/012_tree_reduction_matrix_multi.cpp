@@ -9,7 +9,7 @@ the sequence of multiply is important, otherwise result is wrong
 
 defines:
 pFlag: only ranks does nothing or recv updates the flag and participate in next step, those does a send will be idle in next step
-pFlag_c: global flag to compare to, updates each step
+step: global flag to compare to, updates each step
 pSize: actual team size, initial is n_proc, updates to (pSize / 2) + (pSize % 2) in each step
 pRank: actual rank index in each step, initial is proc, updates to pRank / 2 in each step   
 
@@ -53,23 +53,23 @@ int main()
   //109   169
   //160   248
   std::size_t pFlag = 1;
-  std::size_t pFlag_c = 1;
+  std::size_t step = 1;
   std::size_t pSize = world.size();
   std::size_t pRank = world.rank();
   std::size_t intvl = 1; //send & recv rank intervel
 
   while (pSize > 1) {
-    if ((pRank % 2) == 1 && pRank < pSize && pFlag == pFlag_c) {//do send
+    if ((pRank % 2) == 1 && pRank < pSize && pFlag == step) {//do send
       std::size_t dest = world.rank() - intvl;
 
-      std::cout << "proc " << world.rank() << " does a isend to " << dest << " on step " << pFlag_c << std::endl;
+      std::cout << "proc " << world.rank() << " does a isend to " << dest << " on step " << step << std::endl;
 
       mpi::request req;
       req = world.isend(dest, pFlag, a);//tag = pFlag 
       req.wait();
-    } else if ((pRank % 2) == 0 && pRank < pSize -1 && pFlag == pFlag_c) {//do recv and update flag
+    } else if ((pRank % 2) == 0 && pRank < pSize -1 && pFlag == step) {//do recv and update flag
       std::size_t src = world.rank() + intvl;
-      std::cout << "proc " << world.rank() << " does a irecv from " << src << " on step " << pFlag_c << std::endl;
+      std::cout << "proc " << world.rank() << " does a irecv from " << src << " on step " << step << std::endl;
 
       m_t a_r(N,N);
       m_t a_t(N,N);
@@ -78,19 +78,19 @@ int main()
       req = world.irecv(src, pFlag, a_r);
       req.wait();
 
-      std::cout << "proc " << world.rank() << " in step " << pFlag_c << " recv a_r = " << std::endl << a_r << std::endl;
+      std::cout << "proc " << world.rank() << " in step " << step << " recv a_r = " << std::endl << a_r << std::endl;
 
       blas::gemm(1.0, a, a_r, 0.0, a_t);
       a = a_t; //a = a * a_r
       pFlag++;
     } else { //do nothing other than update flag
-      std::cout << "proc " << world.rank() << " does nothing on step " << pFlag_c << std::endl;
+      std::cout << "proc " << world.rank() << " does nothing on step " << step << std::endl;
       pFlag++;
     }
     pSize = (pSize / 2) + (pSize % 2);
     pRank /= 2;
     intvl *= 2;
-    pFlag_c++;
+    step++;
   }
 
   if (world.rank() == 0) {
