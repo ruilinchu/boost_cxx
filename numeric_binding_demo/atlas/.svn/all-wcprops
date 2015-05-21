@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas
+END
+ublas_symm2syr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm2syr.cc
+END
+ublas_symm2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm2.cc
+END
+ublas_matr22.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr22.cc
+END
+ublas_getrf_getrs.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_getrf_getrs.cc
+END
+ublas_symmc3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symmc3.cc
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/utils.h
+END
+init.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/boost/!svn/ver/59039/sandbox/numeric_bindings/libs/numeric/bindings/atlas/init.cc
+END
+ublas_herm3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_herm3.cc
+END
+ublas_herm3h2k.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_herm3h2k.cc
+END
+ublas_matr2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr2.cc
+END
+ublas_gesv3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_gesv3.cc
+END
+ublas_symm3s2k.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm3s2k.cc
+END
+ublas_gesv5.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_gesv5.cc
+END
+ublas_cmatr3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_cmatr3.cc
+END
+ublas_symm33.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm33.cc
+END
+ublas_vct.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_vct.cc
+END
+ublas_potri.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_potri.cc
+END
+tnt2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/tnt2.cc
+END
+tnt_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/boost/!svn/ver/51529/sandbox/numeric_bindings/libs/numeric/bindings/atlas/tnt_utils.h
+END
+ublas_gesv.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_gesv.cc
+END
+ublas_symm3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm3.cc
+END
+ublas_getri.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_getri.cc
+END
+others.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/others.cc
+END
+ublas_potrf_potrs.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_potrf_potrs.cc
+END
+ublas_symm3syrk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm3syrk.cc
+END
+ublas_matr2ger.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr2ger.cc
+END
+Jamfile.v2
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/Jamfile.v2
+END
+ublas_matr2_bench.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr2_bench.cc
+END
+ublas_matr1.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr1.cc
+END
+ublas_gesv2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_gesv2.cc
+END
+ublas_matr3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_matr3.cc
+END
+ublas_cmatr2ger.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_cmatr2ger.cc
+END
+ublas_posv.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_posv.cc
+END
+ublas_herm3herk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_herm3herk.cc
+END
+ublas_cmatr2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/59144/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_cmatr2.cc
+END
+ublas_gesv4.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_gesv4.cc
+END
+ublas_symm32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/boost/!svn/ver/63419/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_symm32.cc
+END
+ublas_cvct.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/ublas_cvct.cc
+END
+tnt3.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/boost/!svn/ver/59139/sandbox/numeric_bindings/libs/numeric/bindings/atlas/tnt3.cc
+END
+tnt_gesv.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/boost/!svn/ver/60735/sandbox/numeric_bindings/libs/numeric/bindings/atlas/tnt_gesv.cc
+END
