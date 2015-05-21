@@ -49,7 +49,7 @@ int main()
     }
   
   std::cout << "on proc " << world.rank() << " a is: " << std::endl << a << std::endl;
-  // find result shoud be:
+  // using 3 nodes, find result shoud be:
   //109   169
   //160   248
   std::size_t pFlag = 1;
