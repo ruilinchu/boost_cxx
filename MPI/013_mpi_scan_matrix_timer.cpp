@@ -29,6 +29,8 @@ int main()
 {
   mpi::environment env;
   mpi::communicator world;
+  
+  mpi::timer wtime;
 
   std::size_t N = 2;
   m_t a(N,N);
@@ -48,6 +50,8 @@ int main()
   mpi::scan(world, a, a_r, m_dot);
 
   std::cout << "on proc " << world.rank() << " a_r is: " << std::endl << a_r << std::endl;
+
+  std::cout << "MPI time elapsed: " << wtime.elapsed() << std::endl;
 
   return 0;
 }
