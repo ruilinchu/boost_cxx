@@ -8,6 +8,7 @@ int main()
   mpi::environment env;
   mpi::communicator world;
   std::cout << "I am process " << world.rank() << " of " << world.size()
-            << "." << std::endl;
+            << " with hostname " << env.processor_name() << std::endl; 
+  //or: mpi::environment::processor_name() << std::endl;
   return 0;
 }
