@@ -57,7 +57,6 @@ int main()
     {
       ABC abc;
 
-      // Fails here because abc_obj is not big enough
       world.recv (0,ANY_TAG, abc );
       std::cout << "Rank 1 OK!" << std::endl;
 
